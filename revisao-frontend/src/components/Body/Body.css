@@ -1,0 +1,16 @@
+.body-content-wrap {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 30px 30px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+@media (max-width: 800px) {
+  .body-content-wrap {
+    flex-direction: column;
+  }
+}

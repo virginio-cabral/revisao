@@ -4,9 +4,9 @@ function Counter() {
   return (
     <>
       <div className="counter-div">
-        <button className="decrease"></button>
-        <p className="display"></p>
-        <button className="increase"></button>
+        <button className="btn">-</button>
+        <p className="display">10</p>
+        <button className="btn">+</button>
       </div>
     </>
   );

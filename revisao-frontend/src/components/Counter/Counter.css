@@ -1,0 +1,51 @@
+.counter-div {
+  width: 100%;
+  max-width: 407px;
+  padding: 100px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  background: #efefef;
+
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .counter-div {
+    max-width: 100%;
+  }
+}
+
+.counter-div .display {
+  padding: 20px 40px;
+
+  display: flex;
+
+  border-radius: 8px;
+
+  font-size: 30px;
+
+  background: #ffffff;
+  color: #f43232;
+}
+
+.counter-div .btn {
+  padding: 10px;
+  width: 60px;
+
+  font-size: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: #f43232;
+  color: #ffffff;
+}
